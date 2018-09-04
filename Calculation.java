@@ -1,15 +1,18 @@
 
 // Subtraction and Addition Program
-//multiplication and divoision
+//multiplication and divoisio// end of the programn
 public class Calculation
 {
+
+	//subraction
    void sub(int x,int y)
       {
             int z;
 	    z=x-y;	        
             System.out.println("Sub="+z);
        }
-
+	
+	//addition
 
    void add(int x,int y)
       {
@@ -27,6 +30,7 @@ public class Calculation
       }
 
 
+	//multiplication
 
       void mul(int x,int y)
       {
@@ -36,6 +40,8 @@ public class Calculation
 
       
      }
+
+     //division
       
       void div(int x,int y)
       {
@@ -43,6 +49,15 @@ public class Calculation
       int z;
       z=x/y;
       System.out.println("div "+z);
+      }
+
+      //modulo
+      void modulo(int x,int y)
+      {
+	int z;
+	z=x%y;
+	System.out.println(z);
+
       }
      
 
@@ -52,11 +67,17 @@ public class Calculation
             c.sub(200,50);
 	    c.add(10,30);
 	    c.mul(5,6);
+
+	    c.div(10,2);
+	    c.mod(19,20);
+
           c.div(10,2);
+
        }
 }
 
 
+//end of the program
 
 
 
